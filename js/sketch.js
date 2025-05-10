@@ -14,7 +14,7 @@ for(i=0; i<37; i++){
 function setup() {
 
 textFont(myFont);
-createCanvas(windowWidth,windowHeight);
+createCanvas(windowWidth/2,windowHeight/2);
 background(0)
 carte = loadImage('img/Cartes/Fond-cartes.png')
 proba = int(random(0,100))
